@@ -1,7 +1,4 @@
-/*  Fernanda Sanches
-    Myrna Shuman
-*/
-
+/*Fernanda Sanches*/
 
 #include <stdio.h>
 
@@ -32,8 +29,7 @@ int main ()
     printf ("quantas iteracoes?\n ");
     scanf ("%d", &iteracoes);
 
-    /*  if ((matriz [0][0] > (matriz[0][1]+matriz[0][2]))&& (matriz[1][1]> (matriz[1][0]+matriz[1][2])) && (matriz[2][2] > (matriz [2][0]+ matriz [2][1])))
-      {*/
+    
     for (k=0; k<iteracoes; k++)
     {
         x= ((matriz[0][1]*v[1][0] + matriz[0][2]*v[2][0] + matriz[0][3]*-1) / matriz [0][0])*-1;
